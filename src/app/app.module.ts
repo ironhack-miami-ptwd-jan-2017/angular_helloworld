@@ -13,6 +13,7 @@ import { BuiltInPipesComponent } from './built-in-pipes/built-in-pipes.component
 import { CustomPipesComponent } from './custom-pipes/custom-pipes.component';
 import { CapitalizePipe } from './capitalize.pipe';
 import { NgForExampleComponent } from './ng-for-example/ng-for-example.component';
+import { MySignupFormComponent } from './my-signup-form/my-signup-form.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NgForExampleComponent } from './ng-for-example/ng-for-example.component
     BuiltInPipesComponent,
     CustomPipesComponent,
     CapitalizePipe,
-    NgForExampleComponent
+    NgForExampleComponent,
+    MySignupFormComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,19 @@
+<form (ngSubmit)="submitForm(myForm)" #myForm="ngForm">
+    <p> Username
+        <input type="text" name="username" [(ngModel)]="username" required />
+    </p>
+    <p> Password
+        <input type="password" name="password" [(ngModel)]="password" required />
+    </p>
+    <button type="submit"> signup </button>
+</form>
+
+<form (ngSubmit)="submitForm(myForm2)" #myForm2="ngForm">
+    <p> Username
+        <input type="text" name="username2" [(ngModel)]="username2" required />
+    </p>
+    <p> Password
+        <input type="password" name="password2" [(ngModel)]="password2" required />
+    </p>
+    <button type="submit"> signup </button>
+</form>
